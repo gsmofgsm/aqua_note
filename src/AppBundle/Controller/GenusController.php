@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 
 class GenusController extends Controller
@@ -42,6 +43,6 @@ class GenusController extends Controller
             'notes' => $notes,
         ];
 
-        return new Response(json_encode($data));
+        return new JsonResponse($data);
     }
 }

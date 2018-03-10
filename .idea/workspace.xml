@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac4f6a9-ec03-472b-9044-001460d0f438" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/aquanote-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/leanna.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/octopus-rubescens.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/ryan.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/notes.react.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/vendor/fontawesome/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,12 +14,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
+      <file leaf-file-name="GenusController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="557">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="true" />
+                <element signature="e#609#631#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +42,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
       </list>
     </option>
   </component>
@@ -86,9 +56,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
-    <option name="y" value="-1902" />
-    <option name="width" value="3384" />
-    <option name="height" value="1862" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -331,18 +301,18 @@
       <updated>1520371852425</updated>
       <workItem from="1520371853915" duration="236000" />
       <workItem from="1520372116041" duration="1220000" />
-      <workItem from="1520460094676" duration="4892000" />
+      <workItem from="1520460094676" duration="5327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6348000" />
+    <option name="totallyTimeSpent" value="6783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-1902" width="3384" height="1862" extended-state="6" />
+    <frame x="-12" y="-12" width="1944" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -377,14 +347,8 @@
         <state relative-caret-position="280">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1520622657082" expanded="true" signature="44:157" ph="..." />
-            <marker date="1520622657082" expanded="true" signature="199:610" ph="{...}" />
-            <marker date="1520622657082" expanded="true" signature="209:251" ph=" @Route(&quot;/genus/{genusName}&quot;) ..." />
-            <marker date="1520622657082" expanded="true" signature="296:608" ph="{...}" />
-            <marker date="1520622657082" expanded="true" signature="321:468" ph="..." />
-            <marker date="1520622657082" expanded="true" signature="501:600" ph="..." />
-            <marker date="1520622657082" expanded="true" signature="502:522" ph="genus/show" />
-            <marker date="1520622657082" expanded="true" signature="526:599" ph="..." />
+            <element signature="e#40#99#0#PHP" expanded="true" />
+            <element signature="e#609#631#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -410,210 +374,6 @@
             <marker date="1520371603082" expanded="true" signature="760:803" ph="{...}" />
             <marker date="1520371603082" expanded="true" signature="812:934" ph=" Multiple route annotations are allowed. ..." />
             <marker date="1520371603082" expanded="true" signature="969:1002" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6643">
-          <caret line="196" column="20" lean-forward="false" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
-          <folding>
-            <marker date="1520371505373" expanded="false" signature="9:234" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="286:381" ph=" Response represents an HTTP response. ..." />
-            <marker date="1520371505373" expanded="true" signature="398:37945" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="3675:3745" ph=" @var \Symfony\Component\HttpFoundation\ResponseHeaderBag ..." />
-            <marker date="1520371505373" expanded="true" signature="3777:3802" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="3837:3862" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="3897:3919" ph=" @var int ..." />
-            <marker date="1520371505373" expanded="true" signature="3957:3982" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="4020:4045" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="4080:4444" ph=" Status codes translation table. ..." />
-            <marker date="1520371505373" expanded="true" signature="4486:7533" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="7544:7817" ph=" @param mixed $content The response content, see setContent() ..." />
-            <marker date="1520371505373" expanded="true" signature="7901:8089" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="8098:8476" ph=" Factory method for chainability. ..." />
-            <marker date="1520371505373" expanded="true" signature="8562:8630" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="8639:8959" ph=" Returns the Response as an HTTP string. ..." />
-            <marker date="1520371505373" expanded="true" signature="8994:9188" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="9197:9248" ph=" Clones the current Response instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="9280:9339" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="9348:9636" ph=" Prepares the Response before it is sent to the client. ..." />
-            <marker date="1520371505373" expanded="true" signature="9684:11780" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="9786:9926" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="9934:11245" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10033:10268" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10175:10254" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10402:10494" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10623:10771" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10861:10926" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10974:11235" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11142:11221" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11341:11396" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11582:11694" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11789:11850" ph=" Sends HTTP headers. ..." />
-            <marker date="1520371505373" expanded="true" signature="11886:12955" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="11981:12016" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12125:12259" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12167:12249" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12480:12925" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12516:12713" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12721:12915" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12964:13049" ph=" Sends content for the current web response. ..." />
-            <marker date="1520371505373" expanded="true" signature="13085:13149" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="13158:13231" ph=" Sends HTTP headers and content. ..." />
-            <marker date="1520371505373" expanded="true" signature="13260:13550" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="13384:13431" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="13462:13520" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="13559:13850" ph=" Sets the response content. ..." />
-            <marker date="1520371505373" expanded="true" signature="13893:14279" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="14028:14204" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="14288:14373" ph=" Gets the current response content. ..." />
-            <marker date="1520371505373" expanded="true" signature="14408:14451" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="14460:14648" ph=" Sets the HTTP protocol version (1.0 or 1.1). ..." />
-            <marker date="1520371505373" expanded="true" signature="14699:14769" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="14778:14917" ph=" Gets the HTTP protocol version. ..." />
-            <marker date="1520371505373" expanded="true" signature="14960:15003" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="15012:15439" ph=" Sets the response status code. ..." />
-            <marker date="1520371505373" expanded="true" signature="15496:16054" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="15585:15702" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="15734:15883" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="15916:15988" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="16063:16209" ph=" Retrieves the status code for the current web response. ..." />
-            <marker date="1520371505373" expanded="true" signature="16247:16293" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="16302:16460" ph=" Sets the response charset. ..." />
-            <marker date="1520371505373" expanded="true" signature="16503:16573" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="16582:16709" ph=" Retrieves the response charset. ..." />
-            <marker date="1520371505373" expanded="true" signature="16744:16787" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="16796:17271" ph=" Returns true if the response is worth caching under any circumstance. ..." />
-            <marker date="1520371505373" expanded="true" signature="17307:17662" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="17399:17434" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="17559:17594" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="17671:18108" ph=" Returns true if the response is &quot;fresh&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="18140:18188" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="18197:18481" ph=" Returns true if the response includes headers that can be used to validate ..." />
-            <marker date="1520371505373" expanded="true" signature="18520:18616" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="18625:18812" ph=" Marks the response as &quot;private&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="18847:19006" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="19015:19199" ph=" Marks the response as &quot;public&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="19233:19392" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="19401:19579" ph=" Marks the response as &quot;immutable&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="19633:19858" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="19665:19741" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="19749:19828" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="19867:20054" ph=" Returns true if the response is marked as &quot;immutable&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="20090:20172" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="20181:20680" ph=" Returns true if the response must be revalidated by caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="20719:20871" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="20880:21106" ph=" Returns the Date header as a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="21138:21198" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="21207:21309" ph=" Sets the Date header. ..." />
-            <marker date="1520371505373" expanded="true" signature="21356:21522" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="21531:21677" ph=" Returns the age of the response. ..." />
-            <marker date="1520371505373" expanded="true" signature="21708:21883" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="21772:21812" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="21892:22032" ph=" Marks the response stale by setting the Age header to be equal to the maximum age of the response. ..." />
-            <marker date="1520371505373" expanded="true" signature="22063:22200" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="22101:22170" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="22209:22419" ph=" Returns the value of the Expires header as a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="22454:22790" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="22474:22538" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="22570:22783" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="22799:23086" ph=" Sets the Expires HTTP header with a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="23143:23457" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="23179:23235" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="23243:23427" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="23466:23906" ph=" Returns the number of seconds after the time specified in the response's Date ..." />
-            <marker date="1520371505373" expanded="true" signature="23940:24405" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="24014:24102" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="24171:24258" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="24304:24398" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="24414:24703" ph=" Sets the number of seconds after which the response should no longer be considered fresh. ..." />
-            <marker date="1520371505373" expanded="true" signature="24743:24847" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="24856:25163" ph=" Sets the number of seconds after which the response should no longer be considered fresh by shared caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="25209:25342" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="25351:25728" ph=" Returns the response's time-to-live in seconds. ..." />
-            <marker date="1520371505373" expanded="true" signature="25759:25880" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="25818:25873" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="25889:26145" ph=" Sets the response's time-to-live for shared caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="26184:26279" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="26288:26551" ph=" Sets the response's time-to-live for private/client caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="26596:26685" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="26694:26980" ph=" Returns the Last-Modified HTTP header as a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="27020:27089" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="27098:27391" ph=" Sets the Last-Modified HTTP header with a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="27453:27779" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="27489:27551" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="27559:27749" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="27788:27975" ph=" Returns the literal value of the ETag HTTP header. ..." />
-            <marker date="1520371505373" expanded="true" signature="28007:28063" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="28072:28336" ph=" Sets the ETag value. ..." />
-            <marker date="1520371505373" expanded="true" signature="28395:28706" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="28431:28484" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="28492:28676" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="28536:28588" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="28715:29079" ph=" Sets the response's cache headers (validation and/or expiration). ..." />
-            <marker date="1520371505373" expanded="true" signature="29126:30420" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="29277:29440" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29481:29536" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29586:29658" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29702:29762" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29807:29874" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29917:30072" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29955:30004" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30012:30062" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30116:30272" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30155:30205" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30213:30262" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30318:30390" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30429:30794" ph=" Modifies the response so that it conforms to the rules defined for a 304 status code. ..." />
-            <marker date="1520371505373" expanded="true" signature="30833:31228" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="31144:31198" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="31237:31430" ph=" Returns true if the response includes a Vary header. ..." />
-            <marker date="1520371505373" expanded="true" signature="31462:31527" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="31536:31698" ph=" Returns an array of header names given in the Vary header. ..." />
-            <marker date="1520371505373" expanded="true" signature="31730:32006" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="31801:31838" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="31899:31977" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="32015:32257" ph=" Sets the Vary header. ..." />
-            <marker date="1520371505373" expanded="true" signature="32314:32406" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="32415:32836" ph=" Determines if the Response validators (ETag, Last-Modified) match ..." />
-            <marker date="1520371505373" expanded="true" signature="32890:33566" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="32942:32977" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33187:33284" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33333:33453" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33483:33529" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33575:33749" ph=" Is response invalid? ..." />
-            <marker date="1520371505373" expanded="true" signature="33783:33863" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="33872:33976" ph=" Is response informative? ..." />
-            <marker date="1520371505373" expanded="true" signature="34016:34096" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34105:34208" ph=" Is response successful? ..." />
-            <marker date="1520371505373" expanded="true" signature="34245:34325" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34334:34441" ph=" Is the response a redirect? ..." />
-            <marker date="1520371505373" expanded="true" signature="34479:34559" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34568:34672" ph=" Is there a client error? ..." />
-            <marker date="1520371505373" expanded="true" signature="34710:34790" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34799:34909" ph=" Was there a server side error? ..." />
-            <marker date="1520371505373" expanded="true" signature="34947:35027" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35036:35135" ph=" Is the response OK? ..." />
-            <marker date="1520371505373" expanded="true" signature="35164:35218" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35227:35333" ph=" Is the response forbidden? ..." />
-            <marker date="1520371505373" expanded="true" signature="35369:35423" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35432:35546" ph=" Is the response a not found error? ..." />
-            <marker date="1520371505373" expanded="true" signature="35581:35635" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35644:35802" ph=" Is the response a redirect of some form? ..." />
-            <marker date="1520371505373" expanded="true" signature="35853:36018" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="36027:36129" ph=" Is the response empty? ..." />
-            <marker date="1520371505373" expanded="true" signature="36161:36234" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="36243:36602" ph=" Cleans or flushes output buffers up to target level. ..." />
-            <marker date="1520371505373" expanded="true" signature="36672:37281" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="37140:37274" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37166:37211" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37219:37264" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37290:37489" ph=" Checks if we need to remove Cache-Control for SSL encrypted downloads when using IE &lt; 9. ..." />
-            <marker date="1520371505373" expanded="true" signature="37561:37943" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="37778:37936" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37856:37926" ph="..." />
           </folding>
         </state>
       </provider>
@@ -848,23 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <marker date="1520622657082" expanded="true" signature="44:157" ph="..." />
-            <marker date="1520622657082" expanded="true" signature="199:610" ph="{...}" />
-            <marker date="1520622657082" expanded="true" signature="209:251" ph=" @Route(&quot;/genus/{genusName}&quot;) ..." />
-            <marker date="1520622657082" expanded="true" signature="296:608" ph="{...}" />
-            <marker date="1520622657082" expanded="true" signature="321:468" ph="..." />
-            <marker date="1520622657082" expanded="true" signature="501:600" ph="..." />
-            <marker date="1520622657082" expanded="true" signature="502:522" ph="genus/show" />
-            <marker date="1520622657082" expanded="true" signature="526:599" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/vendor/bootstrap/js/npm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -897,9 +640,237 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/genus/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="245">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <marker date="1506409510000" expanded="false" signature="12:26" ph="base" />
+            <marker date="1506409510000" expanded="true" signature="32:79" ph="{% block title ...%}" />
+            <marker date="1506409510000" expanded="true" signature="81:1297" ph="{% block body ...%}" />
+            <marker date="1506409510000" expanded="true" signature="180:625" ph="..." />
+            <marker date="1506409510000" expanded="true" signature="256:614" ph="..." />
+            <marker date="1506409510000" expanded="true" signature="300:599" ph="..." />
+            <marker date="1506409510000" expanded="true" signature="659:769" ph="..." />
+            <marker date="1506409510000" expanded="true" signature="800:1281" ph="..." />
+            <marker date="1506409510000" expanded="true" signature="810:1267" ph="{% for note in notes ...%}" />
+            <marker date="1506409510000" expanded="true" signature="876:1245" ph="..." />
+            <marker date="1506409510000" expanded="true" signature="922:1029" ph="..." />
+            <marker date="1506409510000" expanded="true" signature="1079:1226" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="196" column="20" lean-forward="false" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
+          <folding>
+            <marker date="1520371505373" expanded="false" signature="9:234" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="286:381" ph=" Response represents an HTTP response. ..." />
+            <marker date="1520371505373" expanded="true" signature="398:37945" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="3675:3745" ph=" @var \Symfony\Component\HttpFoundation\ResponseHeaderBag ..." />
+            <marker date="1520371505373" expanded="true" signature="3777:3802" ph=" @var string ..." />
+            <marker date="1520371505373" expanded="true" signature="3837:3862" ph=" @var string ..." />
+            <marker date="1520371505373" expanded="true" signature="3897:3919" ph=" @var int ..." />
+            <marker date="1520371505373" expanded="true" signature="3957:3982" ph=" @var string ..." />
+            <marker date="1520371505373" expanded="true" signature="4020:4045" ph=" @var string ..." />
+            <marker date="1520371505373" expanded="true" signature="4080:4444" ph=" Status codes translation table. ..." />
+            <marker date="1520371505373" expanded="true" signature="4486:7533" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="7544:7817" ph=" @param mixed $content The response content, see setContent() ..." />
+            <marker date="1520371505373" expanded="true" signature="7901:8089" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="8098:8476" ph=" Factory method for chainability. ..." />
+            <marker date="1520371505373" expanded="true" signature="8562:8630" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="8639:8959" ph=" Returns the Response as an HTTP string. ..." />
+            <marker date="1520371505373" expanded="true" signature="8994:9188" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="9197:9248" ph=" Clones the current Response instance. ..." />
+            <marker date="1520371505373" expanded="true" signature="9280:9339" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="9348:9636" ph=" Prepares the Response before it is sent to the client. ..." />
+            <marker date="1520371505373" expanded="true" signature="9684:11780" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="9786:9926" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="9934:11245" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="10033:10268" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="10175:10254" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="10402:10494" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="10623:10771" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="10861:10926" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="10974:11235" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="11142:11221" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="11341:11396" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="11582:11694" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="11789:11850" ph=" Sends HTTP headers. ..." />
+            <marker date="1520371505373" expanded="true" signature="11886:12955" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="11981:12016" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="12125:12259" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="12167:12249" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="12480:12925" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="12516:12713" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="12721:12915" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="12964:13049" ph=" Sends content for the current web response. ..." />
+            <marker date="1520371505373" expanded="true" signature="13085:13149" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="13158:13231" ph=" Sends HTTP headers and content. ..." />
+            <marker date="1520371505373" expanded="true" signature="13260:13550" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="13384:13431" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="13462:13520" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="13559:13850" ph=" Sets the response content. ..." />
+            <marker date="1520371505373" expanded="true" signature="13893:14279" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="14028:14204" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="14288:14373" ph=" Gets the current response content. ..." />
+            <marker date="1520371505373" expanded="true" signature="14408:14451" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="14460:14648" ph=" Sets the HTTP protocol version (1.0 or 1.1). ..." />
+            <marker date="1520371505373" expanded="true" signature="14699:14769" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="14778:14917" ph=" Gets the HTTP protocol version. ..." />
+            <marker date="1520371505373" expanded="true" signature="14960:15003" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="15012:15439" ph=" Sets the response status code. ..." />
+            <marker date="1520371505373" expanded="true" signature="15496:16054" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="15585:15702" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="15734:15883" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="15916:15988" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="16063:16209" ph=" Retrieves the status code for the current web response. ..." />
+            <marker date="1520371505373" expanded="true" signature="16247:16293" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="16302:16460" ph=" Sets the response charset. ..." />
+            <marker date="1520371505373" expanded="true" signature="16503:16573" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="16582:16709" ph=" Retrieves the response charset. ..." />
+            <marker date="1520371505373" expanded="true" signature="16744:16787" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="16796:17271" ph=" Returns true if the response is worth caching under any circumstance. ..." />
+            <marker date="1520371505373" expanded="true" signature="17307:17662" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="17399:17434" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="17559:17594" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="17671:18108" ph=" Returns true if the response is &quot;fresh&quot;. ..." />
+            <marker date="1520371505373" expanded="true" signature="18140:18188" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="18197:18481" ph=" Returns true if the response includes headers that can be used to validate ..." />
+            <marker date="1520371505373" expanded="true" signature="18520:18616" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="18625:18812" ph=" Marks the response as &quot;private&quot;. ..." />
+            <marker date="1520371505373" expanded="true" signature="18847:19006" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="19015:19199" ph=" Marks the response as &quot;public&quot;. ..." />
+            <marker date="1520371505373" expanded="true" signature="19233:19392" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="19401:19579" ph=" Marks the response as &quot;immutable&quot;. ..." />
+            <marker date="1520371505373" expanded="true" signature="19633:19858" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="19665:19741" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="19749:19828" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="19867:20054" ph=" Returns true if the response is marked as &quot;immutable&quot;. ..." />
+            <marker date="1520371505373" expanded="true" signature="20090:20172" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="20181:20680" ph=" Returns true if the response must be revalidated by caches. ..." />
+            <marker date="1520371505373" expanded="true" signature="20719:20871" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="20880:21106" ph=" Returns the Date header as a DateTime instance. ..." />
+            <marker date="1520371505373" expanded="true" signature="21138:21198" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="21207:21309" ph=" Sets the Date header. ..." />
+            <marker date="1520371505373" expanded="true" signature="21356:21522" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="21531:21677" ph=" Returns the age of the response. ..." />
+            <marker date="1520371505373" expanded="true" signature="21708:21883" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="21772:21812" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="21892:22032" ph=" Marks the response stale by setting the Age header to be equal to the maximum age of the response. ..." />
+            <marker date="1520371505373" expanded="true" signature="22063:22200" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="22101:22170" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="22209:22419" ph=" Returns the value of the Expires header as a DateTime instance. ..." />
+            <marker date="1520371505373" expanded="true" signature="22454:22790" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="22474:22538" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="22570:22783" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="22799:23086" ph=" Sets the Expires HTTP header with a DateTime instance. ..." />
+            <marker date="1520371505373" expanded="true" signature="23143:23457" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="23179:23235" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="23243:23427" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="23466:23906" ph=" Returns the number of seconds after the time specified in the response's Date ..." />
+            <marker date="1520371505373" expanded="true" signature="23940:24405" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="24014:24102" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="24171:24258" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="24304:24398" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="24414:24703" ph=" Sets the number of seconds after which the response should no longer be considered fresh. ..." />
+            <marker date="1520371505373" expanded="true" signature="24743:24847" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="24856:25163" ph=" Sets the number of seconds after which the response should no longer be considered fresh by shared caches. ..." />
+            <marker date="1520371505373" expanded="true" signature="25209:25342" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="25351:25728" ph=" Returns the response's time-to-live in seconds. ..." />
+            <marker date="1520371505373" expanded="true" signature="25759:25880" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="25818:25873" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="25889:26145" ph=" Sets the response's time-to-live for shared caches. ..." />
+            <marker date="1520371505373" expanded="true" signature="26184:26279" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="26288:26551" ph=" Sets the response's time-to-live for private/client caches. ..." />
+            <marker date="1520371505373" expanded="true" signature="26596:26685" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="26694:26980" ph=" Returns the Last-Modified HTTP header as a DateTime instance. ..." />
+            <marker date="1520371505373" expanded="true" signature="27020:27089" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="27098:27391" ph=" Sets the Last-Modified HTTP header with a DateTime instance. ..." />
+            <marker date="1520371505373" expanded="true" signature="27453:27779" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="27489:27551" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="27559:27749" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="27788:27975" ph=" Returns the literal value of the ETag HTTP header. ..." />
+            <marker date="1520371505373" expanded="true" signature="28007:28063" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="28072:28336" ph=" Sets the ETag value. ..." />
+            <marker date="1520371505373" expanded="true" signature="28395:28706" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="28431:28484" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="28492:28676" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="28536:28588" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="28715:29079" ph=" Sets the response's cache headers (validation and/or expiration). ..." />
+            <marker date="1520371505373" expanded="true" signature="29126:30420" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="29277:29440" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="29481:29536" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="29586:29658" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="29702:29762" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="29807:29874" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="29917:30072" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="29955:30004" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="30012:30062" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="30116:30272" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="30155:30205" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="30213:30262" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="30318:30390" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="30429:30794" ph=" Modifies the response so that it conforms to the rules defined for a 304 status code. ..." />
+            <marker date="1520371505373" expanded="true" signature="30833:31228" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="31144:31198" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="31237:31430" ph=" Returns true if the response includes a Vary header. ..." />
+            <marker date="1520371505373" expanded="true" signature="31462:31527" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="31536:31698" ph=" Returns an array of header names given in the Vary header. ..." />
+            <marker date="1520371505373" expanded="true" signature="31730:32006" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="31801:31838" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="31899:31977" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="32015:32257" ph=" Sets the Vary header. ..." />
+            <marker date="1520371505373" expanded="true" signature="32314:32406" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="32415:32836" ph=" Determines if the Response validators (ETag, Last-Modified) match ..." />
+            <marker date="1520371505373" expanded="true" signature="32890:33566" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="32942:32977" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="33187:33284" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="33333:33453" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="33483:33529" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="33575:33749" ph=" Is response invalid? ..." />
+            <marker date="1520371505373" expanded="true" signature="33783:33863" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="33872:33976" ph=" Is response informative? ..." />
+            <marker date="1520371505373" expanded="true" signature="34016:34096" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="34105:34208" ph=" Is response successful? ..." />
+            <marker date="1520371505373" expanded="true" signature="34245:34325" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="34334:34441" ph=" Is the response a redirect? ..." />
+            <marker date="1520371505373" expanded="true" signature="34479:34559" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="34568:34672" ph=" Is there a client error? ..." />
+            <marker date="1520371505373" expanded="true" signature="34710:34790" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="34799:34909" ph=" Was there a server side error? ..." />
+            <marker date="1520371505373" expanded="true" signature="34947:35027" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="35036:35135" ph=" Is the response OK? ..." />
+            <marker date="1520371505373" expanded="true" signature="35164:35218" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="35227:35333" ph=" Is the response forbidden? ..." />
+            <marker date="1520371505373" expanded="true" signature="35369:35423" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="35432:35546" ph=" Is the response a not found error? ..." />
+            <marker date="1520371505373" expanded="true" signature="35581:35635" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="35644:35802" ph=" Is the response a redirect of some form? ..." />
+            <marker date="1520371505373" expanded="true" signature="35853:36018" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="36027:36129" ph=" Is the response empty? ..." />
+            <marker date="1520371505373" expanded="true" signature="36161:36234" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="36243:36602" ph=" Cleans or flushes output buffers up to target level. ..." />
+            <marker date="1520371505373" expanded="true" signature="36672:37281" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="37140:37274" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="37166:37211" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="37219:37264" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="37290:37489" ph=" Checks if we need to remove Cache-Control for SSL encrypted downloads when using IE &lt; 9. ..." />
+            <marker date="1520371505373" expanded="true" signature="37561:37943" ph="{...}" />
+            <marker date="1520371505373" expanded="true" signature="37778:37936" ph="..." />
+            <marker date="1520371505373" expanded="true" signature="37856:37926" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="true" />
+            <element signature="e#609#631#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

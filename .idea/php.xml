@@ -40,6 +40,8 @@
       <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-markdown-bundle" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
     </include_path>
   </component>
 </project>

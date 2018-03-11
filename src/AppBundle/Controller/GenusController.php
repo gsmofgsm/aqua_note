@@ -15,15 +15,11 @@ class GenusController extends Controller
      */
     public function showAction($genusName)
     {
-        $notes = [
-            'Octopus asked me a riddle, outsmarted me',
-            'I counted 8 legs... as they wrapped around me',
-            'Inked!'
-        ];
+        $funFact = "Octopuses can change the color of their body in just *three-tenths* of a second!";
 
         return $this->render('genus/show.html.twig', [
             'name' => $genusName,
-            'notes' => $notes
+            'funFact' => $funFact
         ]);
     }
 

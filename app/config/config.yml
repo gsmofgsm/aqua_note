@@ -37,6 +37,10 @@ framework:
 twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
+    number_format:
+        thousands_separator: '.'
+        decimals: 2
+        decimal_point: ','
 
 # Doctrine Configuration
 doctrine:

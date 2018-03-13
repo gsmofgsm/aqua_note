@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac4f6a9-ec03-472b-9044-001460d0f438" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <file leaf-file-name="config_dev.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+            <state relative-caret-position="777">
+              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
       </list>
     </option>
   </component>
@@ -158,19 +159,7 @@
             <path>
               <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="doctrine" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -294,18 +283,18 @@
       <workItem from="1520371853915" duration="236000" />
       <workItem from="1520372116041" duration="1220000" />
       <workItem from="1520460094676" duration="5652000" />
-      <workItem from="1520710690292" duration="8349000" />
+      <workItem from="1520710690292" duration="8972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15457000" />
+    <option name="totallyTimeSpent" value="16080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="829" y="0" width="1102" height="1039" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4387755" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2940631" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -377,45 +366,6 @@
             <marker date="1520371603082" expanded="true" signature="760:803" ph="{...}" />
             <marker date="1520371603082" expanded="true" signature="812:934" ph=" Multiple route annotations are allowed. ..." />
             <marker date="1520371603082" expanded="true" signature="969:1002" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520371604021" expanded="true" signature="0:39" ph="imports: &lt;1 item&gt;" />
-            <marker date="1520371604021" expanded="true" signature="27:37" ph="config.yml" />
-            <marker date="1520371604021" expanded="true" signature="41:206" ph="framework: &lt;2 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="56:165" ph="router: &lt;2 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="82:131" ph="%kernel.p…ng_dev.yml" />
-            <marker date="1520371604021" expanded="true" signature="161:165" ph="true" />
-            <marker date="1520371604021" expanded="true" signature="170:206" ph="profiler: {1 key}" />
-            <marker date="1520371604021" expanded="true" signature="199:204" ph="false" />
-            <marker date="1520371604021" expanded="true" signature="208:270" ph="web_profiler: &lt;2 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="235:239" ph="true" />
-            <marker date="1520371604021" expanded="true" signature="265:270" ph="false" />
-            <marker date="1520371604021" expanded="true" signature="272:830" ph="monolog: &lt;1 key&gt;" />
-            <marker date="1520371604021" expanded="true" signature="285:830" ph="handlers: &lt;3 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="303:454" ph="main: &lt;4 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="327:333" ph="stream" />
-            <marker date="1520371604021" expanded="true" signature="352:396" ph="%kernel.l…nment%.log" />
-            <marker date="1520371604021" expanded="true" signature="416:421" ph="debug" />
-            <marker date="1520371604021" expanded="true" signature="434:454" ph="channels: [1 item]" />
-            <marker date="1520371604021" expanded="true" signature="445:453" ph="!event" />
-            <marker date="1520371604021" expanded="true" signature="463:597" ph="console: &lt;3 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="490:497" ph="console" />
-            <marker date="1520371604021" expanded="true" signature="534:539" ph="false" />
-            <marker date="1520371604021" expanded="true" signature="552:597" ph="channels: [3 items]" />
-            <marker date="1520371604021" expanded="true" signature="563:571" ph="!event" />
-            <marker date="1520371604021" expanded="true" signature="573:584" ph="!doctrine" />
-            <marker date="1520371604021" expanded="true" signature="586:596" ph="!console" />
-            <marker date="1520371604021" expanded="true" signature="715:830" ph="server_log: &lt;3 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="745:755" ph="server_log" />
-            <marker date="1520371604021" expanded="true" signature="792:797" ph="false" />
-            <marker date="1520371604021" expanded="true" signature="816:830" ph="127.0.0.1:9911" />
           </folding>
         </state>
       </provider>
@@ -734,10 +684,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+        <state relative-caret-position="349">
+          <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding />
         </state>
       </provider>

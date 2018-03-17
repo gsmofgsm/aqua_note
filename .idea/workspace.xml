@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dac4f6a9-ec03-472b-9044-001460d0f438" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Service/MarkdownTransformer.php" afterPath="$PROJECT_DIR$/src/AppBundle/Service/MarkdownTransformer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="services.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="633">
+              <caret line="36" column="85" lean-forward="false" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -33,6 +33,8 @@
     <findStrings>
       <find>twig</find>
       <find>userAvatarFilename</find>
+      <find>getmar</find>
+      <find>getmarkdown</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,8 +61,8 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Repository/GenusNoteRepository.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Repository/GenusRepository.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/genus/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Service/MarkdownTransformer.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Service/MarkdownTransformer.php" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
       </list>
     </option>
@@ -223,6 +225,32 @@
             <path>
               <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
               <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ContainerLmawhel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aqua_note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aqua_note" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -242,7 +270,7 @@
     <property name="node.js.selected.package.eslint" value="" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="max&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Doctrine\Common\Cache\ArrayCache&#9;null&#9;null&#10;max&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -349,18 +377,18 @@
       <workItem from="1520372116041" duration="1220000" />
       <workItem from="1520460094676" duration="5652000" />
       <workItem from="1520710690292" duration="10752000" />
-      <workItem from="1521062233597" duration="11896000" />
+      <workItem from="1521062233597" duration="13459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29756000" />
+    <option name="totallyTimeSpent" value="31319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="7" width="1942" height="1039" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23983316" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36027113" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -401,289 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <marker date="1520371604021" expanded="true" signature="0:39" ph="imports: &lt;1 item&gt;" />
-            <marker date="1520371604021" expanded="true" signature="27:37" ph="config.yml" />
-            <marker date="1520371604021" expanded="true" signature="166:510" ph="monolog: &lt;1 key&gt;" />
-            <marker date="1520371604021" expanded="true" signature="179:510" ph="handlers: &lt;3 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="197:296" ph="main: &lt;3 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="221:236" ph="fingers_crossed" />
-            <marker date="1520371604021" expanded="true" signature="263:268" ph="error" />
-            <marker date="1520371604021" expanded="true" signature="290:296" ph="nested" />
-            <marker date="1520371604021" expanded="true" signature="305:425" ph="nested: &lt;3 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="331:337" ph="stream" />
-            <marker date="1520371604021" expanded="true" signature="356:400" ph="%kernel.l…nment%.log" />
-            <marker date="1520371604021" expanded="true" signature="420:425" ph="debug" />
-            <marker date="1520371604021" expanded="true" signature="434:510" ph="console: &lt;2 keys&gt;" />
-            <marker date="1520371604021" expanded="true" signature="461:468" ph="console" />
-            <marker date="1520371604021" expanded="true" signature="505:510" ph="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/vendor/bootstrap/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="196" column="20" lean-forward="false" selection-start-line="196" selection-start-column="20" selection-end-line="196" selection-end-column="20" />
-          <folding>
-            <marker date="1520371505373" expanded="false" signature="9:234" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="286:381" ph=" Response represents an HTTP response. ..." />
-            <marker date="1520371505373" expanded="true" signature="398:37945" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="3675:3745" ph=" @var \Symfony\Component\HttpFoundation\ResponseHeaderBag ..." />
-            <marker date="1520371505373" expanded="true" signature="3777:3802" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="3837:3862" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="3897:3919" ph=" @var int ..." />
-            <marker date="1520371505373" expanded="true" signature="3957:3982" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="4020:4045" ph=" @var string ..." />
-            <marker date="1520371505373" expanded="true" signature="4080:4444" ph=" Status codes translation table. ..." />
-            <marker date="1520371505373" expanded="true" signature="4486:7533" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="7544:7817" ph=" @param mixed $content The response content, see setContent() ..." />
-            <marker date="1520371505373" expanded="true" signature="7901:8089" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="8098:8476" ph=" Factory method for chainability. ..." />
-            <marker date="1520371505373" expanded="true" signature="8562:8630" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="8639:8959" ph=" Returns the Response as an HTTP string. ..." />
-            <marker date="1520371505373" expanded="true" signature="8994:9188" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="9197:9248" ph=" Clones the current Response instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="9280:9339" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="9348:9636" ph=" Prepares the Response before it is sent to the client. ..." />
-            <marker date="1520371505373" expanded="true" signature="9684:11780" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="9786:9926" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="9934:11245" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10033:10268" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10175:10254" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10402:10494" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10623:10771" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10861:10926" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="10974:11235" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11142:11221" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11341:11396" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11582:11694" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="11789:11850" ph=" Sends HTTP headers. ..." />
-            <marker date="1520371505373" expanded="true" signature="11886:12955" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="11981:12016" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12125:12259" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12167:12249" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12480:12925" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12516:12713" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12721:12915" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="12964:13049" ph=" Sends content for the current web response. ..." />
-            <marker date="1520371505373" expanded="true" signature="13085:13149" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="13158:13231" ph=" Sends HTTP headers and content. ..." />
-            <marker date="1520371505373" expanded="true" signature="13260:13550" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="13384:13431" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="13462:13520" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="13559:13850" ph=" Sets the response content. ..." />
-            <marker date="1520371505373" expanded="true" signature="13893:14279" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="14028:14204" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="14288:14373" ph=" Gets the current response content. ..." />
-            <marker date="1520371505373" expanded="true" signature="14408:14451" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="14460:14648" ph=" Sets the HTTP protocol version (1.0 or 1.1). ..." />
-            <marker date="1520371505373" expanded="true" signature="14699:14769" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="14778:14917" ph=" Gets the HTTP protocol version. ..." />
-            <marker date="1520371505373" expanded="true" signature="14960:15003" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="15012:15439" ph=" Sets the response status code. ..." />
-            <marker date="1520371505373" expanded="true" signature="15496:16054" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="15585:15702" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="15734:15883" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="15916:15988" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="16063:16209" ph=" Retrieves the status code for the current web response. ..." />
-            <marker date="1520371505373" expanded="true" signature="16247:16293" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="16302:16460" ph=" Sets the response charset. ..." />
-            <marker date="1520371505373" expanded="true" signature="16503:16573" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="16582:16709" ph=" Retrieves the response charset. ..." />
-            <marker date="1520371505373" expanded="true" signature="16744:16787" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="16796:17271" ph=" Returns true if the response is worth caching under any circumstance. ..." />
-            <marker date="1520371505373" expanded="true" signature="17307:17662" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="17399:17434" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="17559:17594" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="17671:18108" ph=" Returns true if the response is &quot;fresh&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="18140:18188" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="18197:18481" ph=" Returns true if the response includes headers that can be used to validate ..." />
-            <marker date="1520371505373" expanded="true" signature="18520:18616" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="18625:18812" ph=" Marks the response as &quot;private&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="18847:19006" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="19015:19199" ph=" Marks the response as &quot;public&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="19233:19392" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="19401:19579" ph=" Marks the response as &quot;immutable&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="19633:19858" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="19665:19741" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="19749:19828" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="19867:20054" ph=" Returns true if the response is marked as &quot;immutable&quot;. ..." />
-            <marker date="1520371505373" expanded="true" signature="20090:20172" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="20181:20680" ph=" Returns true if the response must be revalidated by caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="20719:20871" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="20880:21106" ph=" Returns the Date header as a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="21138:21198" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="21207:21309" ph=" Sets the Date header. ..." />
-            <marker date="1520371505373" expanded="true" signature="21356:21522" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="21531:21677" ph=" Returns the age of the response. ..." />
-            <marker date="1520371505373" expanded="true" signature="21708:21883" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="21772:21812" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="21892:22032" ph=" Marks the response stale by setting the Age header to be equal to the maximum age of the response. ..." />
-            <marker date="1520371505373" expanded="true" signature="22063:22200" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="22101:22170" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="22209:22419" ph=" Returns the value of the Expires header as a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="22454:22790" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="22474:22538" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="22570:22783" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="22799:23086" ph=" Sets the Expires HTTP header with a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="23143:23457" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="23179:23235" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="23243:23427" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="23466:23906" ph=" Returns the number of seconds after the time specified in the response's Date ..." />
-            <marker date="1520371505373" expanded="true" signature="23940:24405" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="24014:24102" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="24171:24258" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="24304:24398" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="24414:24703" ph=" Sets the number of seconds after which the response should no longer be considered fresh. ..." />
-            <marker date="1520371505373" expanded="true" signature="24743:24847" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="24856:25163" ph=" Sets the number of seconds after which the response should no longer be considered fresh by shared caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="25209:25342" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="25351:25728" ph=" Returns the response's time-to-live in seconds. ..." />
-            <marker date="1520371505373" expanded="true" signature="25759:25880" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="25818:25873" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="25889:26145" ph=" Sets the response's time-to-live for shared caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="26184:26279" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="26288:26551" ph=" Sets the response's time-to-live for private/client caches. ..." />
-            <marker date="1520371505373" expanded="true" signature="26596:26685" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="26694:26980" ph=" Returns the Last-Modified HTTP header as a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="27020:27089" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="27098:27391" ph=" Sets the Last-Modified HTTP header with a DateTime instance. ..." />
-            <marker date="1520371505373" expanded="true" signature="27453:27779" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="27489:27551" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="27559:27749" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="27788:27975" ph=" Returns the literal value of the ETag HTTP header. ..." />
-            <marker date="1520371505373" expanded="true" signature="28007:28063" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="28072:28336" ph=" Sets the ETag value. ..." />
-            <marker date="1520371505373" expanded="true" signature="28395:28706" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="28431:28484" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="28492:28676" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="28536:28588" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="28715:29079" ph=" Sets the response's cache headers (validation and/or expiration). ..." />
-            <marker date="1520371505373" expanded="true" signature="29126:30420" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="29277:29440" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29481:29536" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29586:29658" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29702:29762" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29807:29874" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29917:30072" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="29955:30004" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30012:30062" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30116:30272" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30155:30205" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30213:30262" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30318:30390" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="30429:30794" ph=" Modifies the response so that it conforms to the rules defined for a 304 status code. ..." />
-            <marker date="1520371505373" expanded="true" signature="30833:31228" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="31144:31198" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="31237:31430" ph=" Returns true if the response includes a Vary header. ..." />
-            <marker date="1520371505373" expanded="true" signature="31462:31527" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="31536:31698" ph=" Returns an array of header names given in the Vary header. ..." />
-            <marker date="1520371505373" expanded="true" signature="31730:32006" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="31801:31838" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="31899:31977" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="32015:32257" ph=" Sets the Vary header. ..." />
-            <marker date="1520371505373" expanded="true" signature="32314:32406" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="32415:32836" ph=" Determines if the Response validators (ETag, Last-Modified) match ..." />
-            <marker date="1520371505373" expanded="true" signature="32890:33566" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="32942:32977" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33187:33284" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33333:33453" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33483:33529" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="33575:33749" ph=" Is response invalid? ..." />
-            <marker date="1520371505373" expanded="true" signature="33783:33863" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="33872:33976" ph=" Is response informative? ..." />
-            <marker date="1520371505373" expanded="true" signature="34016:34096" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34105:34208" ph=" Is response successful? ..." />
-            <marker date="1520371505373" expanded="true" signature="34245:34325" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34334:34441" ph=" Is the response a redirect? ..." />
-            <marker date="1520371505373" expanded="true" signature="34479:34559" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34568:34672" ph=" Is there a client error? ..." />
-            <marker date="1520371505373" expanded="true" signature="34710:34790" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="34799:34909" ph=" Was there a server side error? ..." />
-            <marker date="1520371505373" expanded="true" signature="34947:35027" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35036:35135" ph=" Is the response OK? ..." />
-            <marker date="1520371505373" expanded="true" signature="35164:35218" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35227:35333" ph=" Is the response forbidden? ..." />
-            <marker date="1520371505373" expanded="true" signature="35369:35423" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35432:35546" ph=" Is the response a not found error? ..." />
-            <marker date="1520371505373" expanded="true" signature="35581:35635" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="35644:35802" ph=" Is the response a redirect of some form? ..." />
-            <marker date="1520371505373" expanded="true" signature="35853:36018" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="36027:36129" ph=" Is the response empty? ..." />
-            <marker date="1520371505373" expanded="true" signature="36161:36234" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="36243:36602" ph=" Cleans or flushes output buffers up to target level. ..." />
-            <marker date="1520371505373" expanded="true" signature="36672:37281" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="37140:37274" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37166:37211" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37219:37264" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37290:37489" ph=" Checks if we need to remove Cache-Control for SSL encrypted downloads when using IE &lt; 9. ..." />
-            <marker date="1520371505373" expanded="true" signature="37561:37943" ph="{...}" />
-            <marker date="1520371505373" expanded="true" signature="37778:37936" ph="..." />
-            <marker date="1520371505373" expanded="true" signature="37856:37926" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/notes.react.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -917,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/MarkdownTransformer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/knplabs/knp-markdown-bundle/Parser/MarkdownParser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -933,18 +670,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/classes.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1488">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/classes.php.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4177">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/ContainerAc8nryf/appDevDebugProjectContainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/ContainerLmawhel/appDevDebugProjectContainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="135" column="85" lean-forward="false" selection-start-line="135" selection-start-column="85" selection-end-line="135" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/cache/dev/ContainerLmawhel/getMarkdownTransformerService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        <state relative-caret-position="682">
+          <caret line="83" column="41" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="83" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ArrayCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Service/MarkdownTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="633">
+          <caret line="36" column="85" lean-forward="false" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
           <folding />
         </state>
       </provider>

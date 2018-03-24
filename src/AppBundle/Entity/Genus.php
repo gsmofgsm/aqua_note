@@ -121,6 +121,14 @@ class Genus
     }
 
     /**
+     * @return mixed
+     */
+    public function getisPublished()
+    {
+        return $this->isPublished;
+    }
+
+    /**
      * @param mixed $isPublished
      */
     public function setIsPublished($isPublished)

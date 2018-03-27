@@ -44,6 +44,11 @@ class Genus
     private $isPublished = true;
 
     /**
+     * @ORM\Column(type="date")
+     */
+    private $firstDiscoveredAt;
+
+    /**
      * @ORM\OneToMany(targetEntity="AppBundle\Entity\GenusNote", mappedBy="genus")
      * @ORM\OrderBy({"createdAt"="DESC"})
      */
@@ -134,6 +139,22 @@ class Genus
     public function setIsPublished($isPublished)
     {
         $this->isPublished = $isPublished;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFirstDiscoveredAt()
+    {
+        return $this->firstDiscoveredAt;
+    }
+
+    /**
+     * @param mixed $firstDiscoveredAt
+     */
+    public function setFirstDiscoveredAt($firstDiscoveredAt)
+    {
+        $this->firstDiscoveredAt = $firstDiscoveredAt;
     }
 
     /**

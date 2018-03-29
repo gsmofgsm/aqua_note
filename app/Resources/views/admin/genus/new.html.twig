@@ -27,7 +27,9 @@
                 {{ form_start(genusForm) }}
                     {{ form_row(genusForm.name) }}
                     {{ form_row(genusForm.subFamily) }}
-                    {{ form_row(genusForm.speciesCount) }}
+                    {{ form_row(genusForm.speciesCount, {
+                        'label': 'Number of species'
+                    }) }}
                     {{ form_row(genusForm.funFact) }}
                     {{ form_row(genusForm.isPublished) }}
                     {{ form_row(genusForm.firstDiscoveredAt) }}

@@ -18,7 +18,7 @@ class SecurityController extends Controller
         $error = $authenticationUtils->getLastAuthenticationError();
 
         // last username entered by the user
-        $lastUsername = $authenticationUtils->getLastUsername();
+        $lastUsername = $authenticationUtils->getLastUsername(); // TODO: this always returns null!
 
         $form = $this->createForm(LoginForm::class, [
             '_username' => $lastUsername

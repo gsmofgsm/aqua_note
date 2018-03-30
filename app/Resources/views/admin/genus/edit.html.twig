@@ -1,22 +1,4 @@
-{% extends 'base.html.twig' %}
-
-{% block stylesheets %}
-    {{ parent() }}
-    <link rel="stylesheet" href="/{{ asset('css/bootstrap-datepicker.css') }}">
-{% endblock %}
-
-{% block javascripts %}
-    {{ parent() }}
-    <script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('.js-datepicker').datepicker({
-                format: 'yyyy-mm-dd'
-            });
-        })
-    </script>
-{% endblock %}
+{% extends 'admin/genus/formLayout.html.twig' %}
 
 {% block body %}
     <div class="container">

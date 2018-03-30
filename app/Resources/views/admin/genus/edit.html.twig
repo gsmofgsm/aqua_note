@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="/{{ asset('css/bootstrap-datepicker.css') }}">
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.js-datepicker').datepicker({
+                format: 'yyyy-mm-dd'
+            });
+        })
+    </script>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Edit Genus</h1>
+
+                {{ form_start(genusForm) }}
+                    {{ form_row(genusForm.name) }}
+                    {{ form_row(genusForm.subFamily) }}
+                    {{ form_row(genusForm.speciesCount, {
+                        'label': 'Number of species'
+                    }) }}
+                    {{ form_row(genusForm.funFact) }}
+                    {{ form_row(genusForm.isPublished) }}
+                    {{ form_row(genusForm.firstDiscoveredAt) }}
+
+                    <button type="submit" class="btn btn-primary" formnovalidate>Save</button>
+                {{ form_end(genusForm) }}
+            </div>
+        </div>
+    </div>
+{% endblock %}

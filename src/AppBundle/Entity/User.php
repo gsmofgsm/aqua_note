@@ -33,7 +33,7 @@ class User implements UserInterface
     private $password;
 
     /**
-     * @Asset\NotBlank()
+     * @Asset\NotBlank(groups={"Registration"})
      */
     private $plainPassword;
 

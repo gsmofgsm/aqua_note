@@ -23,6 +23,13 @@ class User implements UserInterface
     private $email;
 
     /**
+     * @ORM\Column(type="string")
+     */
+    private $password;
+
+    private $plainPassword;
+
+    /**
      * Returns the roles granted to the user.
      *
      * <code>
@@ -53,7 +60,7 @@ class User implements UserInterface
      */
     public function getPassword()
     {
-        // TODO: Implement getPassword() method.
+        return $this->password;
     }
 
     /**
@@ -65,7 +72,6 @@ class User implements UserInterface
      */
     public function getSalt()
     {
-        // TODO: Implement getSalt() method.
     }
 
     /**
@@ -86,5 +92,35 @@ class User implements UserInterface
      */
     public function eraseCredentials()
     {
+        $this->plainPassword = null;
+    }
+
+    /**
+     * @param mixed $password
+     */
+    public function setPassword($password)
+    {
+        $this->password = $password;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPlainPassword()
+    {
+        return $this->plainPassword;
+    }
+
+    /**
+     * @param mixed $plainPassword
+     */
+    public function setPlainPassword($plainPassword)
+    {
+        $this->plainPassword = $plainPassword;
+
+        // guarantees that the entity looks updated to Doctrine
+        // when changing the plainPassword
+        // so that Doctrine listeners will be called
+        $this->password = null;
     }
 }

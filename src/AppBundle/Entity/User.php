@@ -30,6 +30,11 @@ class User implements UserInterface
     private $plainPassword;
 
     /**
+     * @ORM\Column(type="json_array")
+     */
+    private $roles = [];
+
+    /**
      * Returns the roles granted to the user.
      *
      * <code>
@@ -47,7 +52,12 @@ class User implements UserInterface
      */
     public function getRoles()
     {
-        return ['ROLE_USER'];
+        $roles = $this->roles;
+        if(! in_array('ROLE_USER', $roles)){
+            $roles[] = 'ROLE_USER';
+        }
+
+        return $roles;
     }
 
     /**
@@ -122,5 +132,13 @@ class User implements UserInterface
         // when changing the plainPassword
         // so that Doctrine listeners will be called
         $this->password = null;
+    }
+
+    /**
+     * @param mixed $roles
+     */
+    public function setRoles($roles)
+    {
+        $this->roles = $roles;
     }
 }

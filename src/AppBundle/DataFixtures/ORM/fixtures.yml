@@ -23,3 +23,4 @@ AppBundle\Entity\SubFamily:
 AppBundle\Entity\User:
     user_{1..10}:
         email: qing.ma.web+<current()>@gmail.com
+        plainPassword: ilikesymfony

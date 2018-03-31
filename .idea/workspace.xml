@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dac4f6a9-ec03-472b-9044-001460d0f438" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/security.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/GenusAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/Admin/GenusAdminController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="security.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="82">
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -396,18 +395,18 @@
       <workItem from="1521659115057" duration="13155000" />
       <workItem from="1522400777747" duration="1593000" />
       <workItem from="1522402398459" duration="33000" />
-      <workItem from="1522402452007" duration="12829000" />
+      <workItem from="1522402452007" duration="13214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61373000" />
+    <option name="totallyTimeSpent" value="61758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1112" height="596" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24863388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16029143" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32963374" />
@@ -776,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="82">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>
